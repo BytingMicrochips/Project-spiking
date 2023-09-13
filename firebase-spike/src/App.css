@@ -1,0 +1,106 @@
+form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm{
+  width: 80%;
+  margin: auto;
+}
+
+label{
+  margin-right: 2em;
+}
+input{
+  margin-top: 0.5em;
+  background-color: rgb(149, 149, 149);
+  color:black;
+}
+
+#logOutNow{
+  display: flex;
+  justify-content: center;
+  width:8em;
+  display: flex;
+  background-color: rgb(69, 69, 69);
+  margin: auto;
+  margin-top: 2vh;
+}
+#logOutNow:hover {
+  display: flex;
+  justify-content: center;
+  width: 8em;
+  display: flex;
+  background-color: rgb(31, 146, 50);
+  margin: auto;
+  margin-top: 2vh;
+}
+
+.appWrapper{
+  background-color: rgb(151, 151, 151);
+  height: 95vh;
+}
+
+
+.loginForm button:hover {
+  background-color: rgb(31, 146, 50);
+  width: 8vw;
+  margin: auto;
+}
+
+.loginForm button:active, #logOutNow:active {
+  background-color: rgb(41, 191, 66);
+
+}
+
+.inputBlock{
+  display: inline-flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 2em;
+  background-color: rgb(93, 93, 93);
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+input:focus{
+  border-color: rgb(31, 146, 50);
+  border-width: 0.25em;
+}
+
+h2{
+  margin-left: 2em;
+  width: fit-content;
+  padding: 0.5em;
+  border-radius: 0.7em;
+  background-color: rgb(93, 93, 93) ;
+}
+
+h1{
+  padding: 0.7em;
+  background-color: rgb(71, 71, 71);
+  border-radius: 0.7em;
+}
+
+#err{
+  color: red;
+  text-align: center;
+  margin-top: 0.2em;
+}
+
+#success{
+  color: green;
+  text-align: center;
+}
+
+.submitButton{
+    background-color: rgb(71, 71, 71);
+      width: 8vw;
+      margin: auto;
+}
